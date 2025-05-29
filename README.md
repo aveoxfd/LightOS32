@@ -33,6 +33,8 @@ Links to additional information that I used as a theory:
 
 -https://littleosbook.github.io/
 
+-https://stackoverflow.com/questions/tagged/osdev
+
 -https://wiki.osdev.org/Bare_Bones
 
 -https://wiki.osdev.org/Expanded_Main_Page
