@@ -1,0 +1,1 @@
+times 10000000 db 0             ;to increase the image size
