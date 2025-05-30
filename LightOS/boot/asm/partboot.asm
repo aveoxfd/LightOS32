@@ -29,8 +29,8 @@ push word 0x0001                                    ;start from 1 sector
 push word KERNEL_PATTERN                            ;personal pattern of kernel
 call load_kernel
 
-mov ax, 0x0013
-int 0x10
+mov ax, 0x0013                                      ;VGA
+int 0x10                                            ;VGA enable
 
 cli                                                  ;turn off interrupts, 
                                                      ;because the interrupt table is configured for BIOS and it is not compatible with our operating mode, 
