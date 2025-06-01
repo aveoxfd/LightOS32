@@ -67,7 +67,6 @@ static const char keymap[128] = {
     /* 0x3C */ 0,    // F2
 };
 
-// Таблица для Shift-клавиш
 static const char shift_keymap[128] = {
     /* 0x00 */ 0,
     /* 0x01 */ 0,
